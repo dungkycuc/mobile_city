@@ -1,0 +1,285 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 10px;
+}
+.header-address {
+  display: flex;
+  padding-top: 5px;
+}
+
+.header-address button {
+  font-size: 10px;
+  margin-left: 5px;
+  background-color: none !important;
+  color: yellowgreen;
+}
+.nav i {
+  color: white;
+  font-size: 20px;
+  text-transform: 2px 2px 10px black;
+}
+
+.slide-home {
+  height: 200px;
+}
+
+.section1 {
+  max-height: 200px;
+  overflow: hidden;
+}
+
+.menu-phone ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 10px 5px;
+}
+
+.menu-phone ul li a {
+  color: #c69a39;
+}
+
+.menu-phone ul li:last-child {
+  display: inline-block;
+}
+
+.sort {
+  padding: 5px 15px;
+}
+
+.product-item-info {
+  border: 1px solid #ebecec;
+  height: 100%;
+}
+
+.product-item-img img {
+  width: 100%;
+  float: left;
+}
+
+.product-item-left {
+  float: left;
+  padding: 10px;
+}
+
+.product-item-left p {
+  font-size: 12px;
+  color: #818181;
+  line-height: 15px;
+}
+
+.product-item-left span {
+  color: red;
+}
+
+.list-product {
+  margin: 0 !important;
+}
+
+.product-item {
+  padding: 0 !important;
+}
+.see-more {
+  display: flex;
+  flex-direction: column;
+}
+.see-more-info {
+  padding: 5px;
+}
+.see-more-btn {
+  width: 80%;
+  margin: auto;
+  display: block;
+  margin-top: 10px;
+  background-color: #c1a44d54 !important;
+}
+.see-more-info ul li {
+  display: inline-block;
+  padding: 5px;
+}
+.see-more-info ul li a {
+  text-decoration: none;
+  color: #c69a39;
+}
+.news-box-item {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.news-box-item-img {
+  padding: 10px;
+}
+.news-box-item-img img {
+  width: 100%;
+}
+.news-box-item-info {
+  padding: 5px;
+}
+.news-box-item-info p {
+  font-size: 12px;
+}
+.news-title {
+  font-size: 16px;
+}
+.news-description {
+  font-size: 14px;
+  color: #58595b;
+}
+.footer-top {
+  padding: 10px 10px;
+  background-color: #e2d7d761;
+}
+.footer-top-content {
+  padding: 10px;
+  padding-bottom: 0px;
+}
+.title-address {
+  color: chartreuse;
+  padding: 5px;
+}
+address {
+  margin-bottom: 0 !important;
+}
+.address-title {
+  font-size: 15px;
+  color: #333;
+  font-weight: 700;
+  padding-bottom: 5px;
+}
+.address-group-item {
+  padding-bottom: 10px;
+}
+.address-map {
+  color: #c69a39;
+  text-decoration: none;
+}
+.footer-top-item {
+  padding: 15px 10px;
+  padding-bottom: 0px;
+}
+.footer-top-menu-title {
+  padding: 5px;
+  color: chartreuse;
+}
+.footer-top-menu-title i {
+  font-size: 16px;
+}
+.footer-top-menu-ul {
+  padding: 5px 10px;
+}
+.footer-top-menu-ul li {
+  padding-bottom: 5px;
+  margin-left: 15px;
+}
+.footer-top-menu-ul li a {
+  text-decoration: none;
+  color: #818181;
+}
+.footer-contact {
+  padding: 15px 10px;
+}
+.contact-mail-title {
+  padding: 5px 0;
+  color: #c69a39;
+  font-size: 16px;
+}
+.contact-mail-title i {
+  margin-left: 5px;
+}
+.contact-mail-input {
+  display: flex;
+  padding: 10px 5px;
+}
+.contact-mail-input button {
+  margin-left: 5px;
+}
+.contact-connect {
+  padding: 10px 5px;
+}
+.connect-1 {
+  padding-top: 5px;
+  font-size: 16px;
+}
+.connect-1 i {
+  margin-right: 15px;
+  font-size: 20px;
+}
+.facebook i {
+  color: blue;
+}
+.youtube i {
+  color: red;
+}
+.support i {
+  color: yellowgreen;
+}
+.footer-end {
+  background-color: #9070706e;
+  padding: 10px 15px;
+}
+
+/* responsive for ipad */
+
+@media (min-width: 768px) {
+  .header {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+  }
+  .header-address {
+    padding: 5px 15px;
+    padding-bottom: 0px;
+  }
+  .header-title {
+    justify-content: flex-end;
+    position: absolute;
+    right: 0;
+    top: 20%;
+  }
+}
+@media (min-width: 992px) {
+  .header {
+    display: flex;
+    flex-direction: row;
+  }
+  .header-address {
+    padding-top: 10px;
+  }
+  .header-address button {
+    font-size: 16px;
+    padding-top: 0px;
+  }
+  #my-nav ul {
+    padding-left: 50px;
+  }
+  #my-nav ul li {
+    padding-right: 55px;
+  }
+  .slide-home img {
+    max-height: 500px;
+  }
+  .container-fix {
+    max-width: 1145px;
+    margin: auto;
+  }
+  .list-product {
+    display: flex;
+    width: 100%;
+  }
+  .product-item {
+    flex: 0 1 calc(20%);
+    max-width: 229px !important;
+  }
+  .product-item-info {
+      width: 229px;
+  }
+  /* button xem them */
+  .see-more-btn {
+    width: 30%;
+  }
+}
